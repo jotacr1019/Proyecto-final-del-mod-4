@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Personal - Proyectos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <script defer src="./Components/Header/header.js"></script>
+    <link rel="stylesheet" href="./Components/Header/header.css">
+
+
+    <script defer src="./Components/Cards/card-portfolio.js"></script>
+    <link rel="stylesheet" href="./Components/Cards/card-portfolio.css">
+
+    <script defer src="./Components/Footer/footer.js"></script>
+    <link rel="stylesheet" href="./Components/Footer/footer.css">
+
+    <script defer src="./Pages/Portfolio/portfolio.js"></script>
+    <link rel="stylesheet" href="./Pages/Portfolio/portfolio.css">
+
+    <link rel="stylesheet" href="./Pages/Index/index.css">
+</head>
+
+<body>
+    <div class="contenedor-header"></div>
+    <section class="portfolio">
+        <div class="portfolio__portada">
+            <h2 class="portfolio__portada-titulo">Mis <span>trabajos</span></h2>
+            <img class="portfolio__portada-imagen" src="./Assets/image 2.png" alt="imagen-trabajos">
+        </div>
+        <div class="portfolio__contenido">
+            <div class="portfolio__contenido-cards"></div>
+            <div class="portfolio__contenido-mas">
+                <img class="portfolio__contenido-mas-imagen" src="./Assets/9b1e30a8f5844d298ad0365fd1d0843e.png" alt="imagen-ver-mas">
+                <p class="portfolio__contenido-mas-texto">Ver más</p>
+            </div>
+        </div>
+    </section>
+    <div class="contenedor-footer"></div>
+    <template id="temp-p">
+        <a class="cards__portfolio-link" href="">
+        <div class="cards">
+            <img class="cards__imagen" src="./Assets/pelis.webp" alt="imagen-de-carta">
+            <h3 class="cards__titulo">Desarrollo de páginas web</h3>
+            <p class="cards__texto">Lorem ipsum dolor sit amet, quasi sit! Alias porro ex reprehenderit at quo fugit, perferendis iste laboriosam?</p>
+        </div>
+        </a>
+    </template>
+</body>
+
+</html>

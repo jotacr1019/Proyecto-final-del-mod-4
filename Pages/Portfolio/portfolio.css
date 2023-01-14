@@ -1,0 +1,151 @@
+.portfolio__portada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    min-width: 375px;
+    height: 625px;
+    padding: 100px 40px;
+    background-color: rgba(19, 23, 28, 1);
+}
+
+@media(min-width:969px) {
+    .portfolio__portada {
+        display: grid;
+        grid-template-columns: 40% 1fr;
+        height: 625px;
+        margin: 0 auto;
+        padding: 100px 120px;
+    }
+}
+
+@media(min-width:1080px) {
+    .portfolio__portada {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 750px;
+        margin: 0 auto;
+        padding: 20px 120px 100px;
+    }
+}
+
+.portfolio__portada-titulo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3.8rem;
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+    line-height: 65px;
+}
+
+@media(min-width:969px) {
+    .portfolio__portada-titulo {
+        font-size: 3.8rem;
+        text-align: left;
+        line-height: 85px;
+    }
+}
+
+@media(min-width:1080px) {
+    .portfolio__portada-titulo {
+        font-size: 6rem;
+        text-align: left;
+    }
+}
+
+.portfolio__portada-titulo span {
+    font-family: 'Poppins', sans-serif;
+    color: #00ADB5
+}
+
+.portfolio__portada-imagen {
+    width: 215px;
+    height: 210px;
+}
+
+@media(min-width:969px) {
+    .portfolio__portada-imagen {
+        width: 235px;
+        height: 230px;
+        align-self: center;
+        justify-self: center;
+    }
+}
+
+@media(min-width:1080px) {
+    .portfolio__portada-imagen {
+        width: 332px;
+        height: 320px;
+        align-self: center;
+        justify-self: center;
+    }
+}
+
+.portfolio__contenido {
+    background-color: rgba(19, 23, 28, 1);
+    background-image: url(/Assets/doodle.png);
+    padding: 85px 20px 80px;
+}
+
+.portfolio__contenido-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+@media(min-width:700px) {
+    .portfolio__contenido-cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+
+.portfolio__contenido-card {
+    text-decoration: none;
+}
+
+.portfolio__contenido-mas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 160px auto 0;
+    min-width: 140px;
+}
+
+@media(min-width:1080px) {
+    .portfolio__contenido-mas {
+        margin: 100px auto 0;
+    }
+}
+
+.portfolio__contenido-mas-imagen {
+    width: 55px;
+    height: 50px;
+    color: #FFF;
+    border-radius: 50px;
+}
+
+@media(min-width:900px) {
+    .portfolio__contenido-mas-imagen {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+.portfolio__contenido-mas-texto {
+    font-family: 'Poppins', sans-serif;
+    display: inline;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #FFF;
+}
+
+@media(min-width:900px) {
+    .portfolio__contenido-mas-texto {
+        font-size: 1.3rem;
+    }
+}

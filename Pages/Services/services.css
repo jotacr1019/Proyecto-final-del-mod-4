@@ -1,0 +1,111 @@
+.servicios__portada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    min-width: 375px;
+    height: 625px;
+    padding: 100px 40px;
+    background-color: rgba(19, 23, 28, 1);
+}
+
+@media(min-width:969px) {
+    .servicios__portada {
+        display: grid;
+        grid-template-columns: 40% 1fr;
+        height: 625px;
+        margin: 0 auto;
+        padding: 80px 120px;
+    }
+}
+
+@media(min-width:1080px) {
+    .servicios__portada {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 750px;
+        margin: 0 auto;
+        padding: 20px 120px;
+    }
+}
+
+.servicios__portada-titulo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3.8rem;
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+    line-height: 65px;
+}
+
+@media(min-width:969px) {
+    .servicios__portada-titulo {
+        font-size: 3.8rem;
+        text-align: left;
+        line-height: 85px;
+    }
+}
+
+@media(min-width:1080px) {
+    .servicios__portada-titulo {
+        font-size: 6rem;
+        text-align: left;
+    }
+}
+
+.servicios__portada-titulo span {
+    font-family: 'Poppins', sans-serif;
+    color: #00ADB5
+}
+
+.servicios__portada-imagen {
+    width: 215px;
+    height: 210px;
+}
+
+@media(min-width:969px) {
+    .servicios__portada-imagen {
+        width: 235px;
+        height: 230px;
+        align-self: center;
+        justify-self: center;
+    }
+}
+
+@media(min-width:1080px) {
+    .servicios__portada-imagen {
+        width: 332px;
+        height: 320px;
+        align-self: center;
+        justify-self: center;
+    }
+}
+
+.servicios__contenido-s {
+    background-color: rgba(19, 23, 28, 1);
+    background-image: url(/Assets/doodle.png);
+    padding: 135px 20px;
+    row-gap: 70px;
+}
+
+.servicios__contenido-cards-s {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+@media(min-width:700px) {
+    .servicios__contenido-cards-s {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        row-gap: 80px;
+    }
+}
+
+.servicios__contenido-card-s {
+    text-decoration: none;
+}

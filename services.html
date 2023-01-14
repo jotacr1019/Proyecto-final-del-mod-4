@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Personal - Servicios</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <script defer src="./Components/Header/header.js"></script>
+    <link rel="stylesheet" href="./Components/Header/header.css">
+
+
+    <script defer src="./Components/Cards/card-services.js"></script>
+    <link rel="stylesheet" href="./Components/Cards/card-services.css">
+
+    <script defer src="./Components/Footer/footer.js"></script>
+    <link rel="stylesheet" href="./Components/Footer/footer.css">
+
+    <script defer src="./Pages/Services/services.js"></script>
+    <link rel="stylesheet" href="./Pages/Services/services.css">
+
+    <link rel="stylesheet" href="./Pages/Index/index.css">
+</head>
+
+<body>
+    <div class="contenedor-header"></div>
+    <section class="servicios">
+        <div class="servicios__portada">
+            <h2 class="servicios__portada-titulo">Mis <span>servicios</span></h2>
+            <img class="servicios__portada-imagen" src="./Assets/services.png" alt="imagen-trabajos">
+        </div>
+        <div class="servicios__contenido-s">
+            <div class="servicios__contenido-cards-s"></div>
+        </div>
+    </section>
+    <div class="contenedor-footer"></div>
+    <template id="temp">
+        <div class="cards">
+            <img class="cards__imagen" src="./Assets/pelis.webp" alt="imagen-de-carta">
+            <h3 class="cards__titulo">Desarrollo de páginas web</h3>
+            <p class="cards__texto">Lorem ipsum dolor sit amet, quasi sit! Alias porro ex reprehenderit at quo fugit, perferendis iste laboriosam?</p>
+        </div>
+    </template>
+</body>
+
+</html>

@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.presentacion {
+    min-width: 375px;
+}
+
+.presentacion__portada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    height: 724px;
+    width: 100%;
+    padding: 20px 60px 80px;
+    background-color: rgba(19, 23, 28, 1);
+    border: none;
+}
+
+@media(min-width:969px) {
+    .presentacion__portada {
+        display: grid;
+        grid-template-columns: 65% 1fr;
+        height: 892px;
+        padding: 0 80px 180px;
+        border-top: 1px solid rgba(238, 238, 238, 0.1);
+    }
+}
+
+.presentacion__portada-titulo {
+    font-weight: 700;
+    font-size: 3.6rem;
+    color: #FFF;
+    margin: 0;
+    text-align: center;
+}
+
+@media(min-width:969px) {
+    .presentacion__portada-titulo {
+        font-size: 6rem;
+        line-height: 85px;
+        text-align: left;
+        margin: 0;
+    }
+}
+
+.presentacion__portada-titulo-span {
+    display: block;
+    font-weight: 700;
+    font-size: 3.6rem;
+    text-align: center;
+    color: rgba(0, 173, 181, 1);
+}
+
+@media(min-width:969px) {
+    .presentacion__portada-titulo-span {
+        font-size: 6rem;
+        line-height: 95px;
+        text-align: left;
+        margin: 0;
+    }
+}
+
+.presentacion__portada-imagen {
+    width: 215px;
+    height: 205px;
+}
+
+@media(min-width:969px) {
+    .presentacion__portada-imagen {
+        justify-self: center;
+    }
+}
+
+.presentacion__portada-imagen-sombra {
+    position: absolute;
+    right: 9999px;
+}
+
+@media(min-width:969px) {
+    .presentacion__portada-imagen-sombra {
+        position: absolute;
+        right: 120px;
+        bottom: -175px;
+        width: 230px;
+        height: 18px;
+    }
+}
+
+.presentacion__detalles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 70px 40px;
+    background-color: rgba(25, 33, 48, 1);
+}
+
+@media(min-width:850px) {
+    .presentacion__detalles {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 250px 120px;
+    }
+}
+
+@media(min-width:1100px) {
+    .presentacion__detalles {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 935px;
+        padding: 250px 120px;
+    }
+}
+
+@media(min-width:1100px) {
+    .presentacion__detalles-contenedor-textos {
+        padding-right: 150px;
+    }
+}
+
+.presentacion__detalles-titulo {
+    font-weight: 700;
+    font-size: 2.6rem;
+    color: #FFF;
+    margin: 0 0 28px;
+}
+
+@media(min-width:376px) {
+    .presentacion__detalles-titulo {
+        text-align: center;
+    }
+}
+
+@media(min-width:850px) {
+    .presentacion__detalles-titulo {
+        text-align: left;
+    }
+}
+
+@media(min-width:1100px) {
+    .presentacion__detalles-titulo {
+        font-size: 4rem;
+        line-height: 62px;
+        text-align: left;
+    }
+}
+
+.presentacion__detalles-texto {
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #FFF;
+    margin: 0 0 36px;
+}
+
+@media(min-width:376px) {
+    .presentacion__detalles-texto {
+        text-align: left;
+        width: 300px;
+    }
+}
+
+.presentacion__detalles-imagen {
+    width: 295px;
+    height: 250px;
+}
+
+@media(min-width:1100px) {
+    .presentacion__detalles-imagen {
+        width: 580px;
+        height: 410px;
+    }
+}
+
+
+/* Servicios */
+
+.servicios__contenido {
+    min-width: 375px;
+    padding: 135px 20px;
+    background-color: rgba(19, 23, 28, 1);
+    background-image: url(/Assets/doodle.png);
+}
+
+.servicios__contenido-titulo {
+    font-weight: 700;
+    font-size: 2.6rem;
+    color: #FFF;
+    margin: 0 0 60px;
+    text-align: center;
+}
+
+@media(min-width:969px) {
+    .servicios__contenido-titulo {
+        font-size: 4rem;
+    }
+}
+
+.servicios__contenido-titulo span {
+    color: rgba(0, 173, 181, 1);
+}
+
+.servicios__contenido-cards-i {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+@media(min-width:700px) {
+    .servicios__contenido-cards-i {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        row-gap: 70px;
+    }
+}
+
+.servicios__contenido-card {
+    text-decoration: none;
+}
+
+
+/* Footer */
+
+.contenedor-footer {
+    width: 100%;
+}
