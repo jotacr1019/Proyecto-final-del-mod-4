@@ -29,7 +29,7 @@ function addFooter(elem) {
     </div>
     <div class="footer__derechos">
         <p class="footer__derechos-texto">©2023 -
-            <a class="footer__derechos-texto" href="">
+            <a class="footer__derechos-texto" href="https://apx.school/">
                 https://apx.school</a>
         </p>
     </div>
