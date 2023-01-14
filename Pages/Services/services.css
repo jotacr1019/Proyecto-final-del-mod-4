@@ -85,7 +85,7 @@
 
 .servicios__contenido-s {
     background-color: rgba(19, 23, 28, 1);
-    background-image: url(Assets/doodle.png);
+    background-image: url(../../Assets/doodle.png);
     padding: 135px 20px;
     row-gap: 70px;
 }
