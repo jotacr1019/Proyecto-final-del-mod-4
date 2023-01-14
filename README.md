@@ -2,4 +2,4 @@
 
 Consistía en crear un Portfolio personal utilizando Html, Css y JavaScript.
 
-[Ver proyecto](https://maguirocha.github.io/desafio-portfolio-m4/)
+:computer:[Ver proyecto](https://maguirocha.github.io/desafio-portfolio-m4/)
