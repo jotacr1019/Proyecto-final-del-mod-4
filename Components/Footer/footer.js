@@ -3,14 +3,14 @@ function addFooter(elem) {
 
     footerEl.innerHTML = `<footer class="footer__componente">
     <div class="footer__contenedor-logo-blanco">
-        <img class="footer__logo-personal" src="./Assets/José-Joaquín-blanco.png" alt="logo-personal-blanco">
+        <img class="footer__logo-personal" src="/Assets/José-Joaquín-blanco.png" alt="logo-personal-blanco">
     </div>
     <div class="footer__opciones">
         <a class="footer__opciones-home" href="index.html">
-            <img class="footer__logo-home" src="./Assets/casa-blanca.png" alt="logo-home"> Home
+            <img class="footer__logo-home" src="/Assets/casa-blanca.png" alt="logo-home"> Home
         </a>
         <a class="footer__opciones-servicios" href="/services.html">
-            <img class="footer__logo-services" src="./Assets/hombre-blanco.png" alt="logo-services"> Servicios
+            <img class="footer__logo-services" src="/Assets/hombre-blanco.png" alt="logo-services"> Servicios
         </a>
         <a class="footer__opciones-contacto" href="contact.html">
             <img class="footer__logo-contact" src="./Assets/tel-blanco.png" alt="logo-contact"> Contacto
