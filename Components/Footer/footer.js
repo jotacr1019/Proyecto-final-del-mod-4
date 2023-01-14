@@ -9,7 +9,7 @@ function addFooter(elem) {
         <a class="footer__opciones-home" href="index.html">
             <img class="footer__logo-home" src="/Assets/casa-blanca.png" alt="logo-home"> Home
         </a>
-        <a class="footer__opciones-servicios" href="/services.html">
+        <a class="footer__opciones-servicios" href="services.html">
             <img class="footer__logo-services" src="/Assets/hombre-blanco.png" alt="logo-services"> Servicios
         </a>
         <a class="footer__opciones-contacto" href="contact.html">
