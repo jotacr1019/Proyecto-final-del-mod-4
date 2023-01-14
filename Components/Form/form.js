@@ -17,7 +17,7 @@ function addForm(elem) {
                  <textarea name="contacto__message" class="contacto__message-input"></textarea>
              </label>
              <button class="contacto__boton">Enviar
-                 <img class="contacto__img-enviar" src="./Assets/paper-plane-regular.svg" alt="imagen-enviar">
+                 <img class="contacto__img-enviar" src="../Assets/paper-plane-regular.svg" alt="imagen-enviar">
              </button>
          </form>
      </div>`;
