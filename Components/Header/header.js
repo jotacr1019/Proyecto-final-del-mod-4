@@ -4,7 +4,9 @@ function addHeader(elem) {
     headerEl.innerHTML = `
     <header class="header__componente">
         <div class="header__contenedor-logo">
+            <a href="/">
             <img src="./Assets/José-Joaquín.png" alt="Mi-logo-personal" class="header__logo">
+            </a>
         </div>
         <nav class="header__menu">
             <button class="header__menu-boton">
