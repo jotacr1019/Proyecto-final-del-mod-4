@@ -11,8 +11,14 @@
     .contacto__componente {
         display: grid;
         grid-template-columns: 35% 1fr;
-        height: 848px;
+        height: 950px;
         padding: 175px 30px;
+    }
+}
+
+@media(min-width:1060px) {
+    .contacto__componente {
+        height: 848px;
     }
 }
 
